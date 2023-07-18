@@ -12,7 +12,16 @@ public class ReadFour
      */
         public static void main(String[] args)
         {
-            // Print out a running total of all the
-            // values in the input file.
+            int[] values = { 4, 10, 3, 13, 49, 11, 45, 79, 24 };
+            int runningTotal = 0;
+
+            for (int value : values) {
+                runningTotal += value;
+                System.out.println("Running Total: " + runningTotal);
+            }
         }
 }
+
+            // Print out a running total of all the
+            // values in the input file.
+
